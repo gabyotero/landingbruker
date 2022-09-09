@@ -33,8 +33,8 @@
           <div class="container">
             <p class="text">
               Empiece su
-              <span class="orange-text">proyecto desde cero</span> y consiga lo
-              mejor de lo mejor.
+              <span class="text text-orange">proyecto desde cero</span> y
+              consiga lo mejor de lo mejor.
             </p>
             <p>
               Ofrecemos una gama completa de servicios que incluyen estudios de
@@ -47,7 +47,8 @@
 
           <div class="container">
             <p class="text">
-              Nos encargamos de <span class="orange-text">el proceso.</span>
+              Nos encargamos de
+              <span class="text text-orange">todo el proceso.</span>
             </p>
             <p>
               Tanto si es una empresa que quiere construir su propio centro
@@ -59,8 +60,8 @@
           </div>
           <div class="container">
             <p class="text">
-              Mantenga sus <span class="orange-text">costes bajos</span> con
-              BRÜKER.
+              Mantenga sus
+              <span class="text text-orange">costes bajos</span> con BRÜKER.
             </p>
             <p>
               Con BRÜKER, puede estar tranquilo sabiendo que cuenta con un
@@ -74,7 +75,7 @@
         </div>
       </section>
       <section class="second-section">
-        <div class="header">
+        <div class="text-header">
           <p>
             Somos especialistas en la construcción de naves industriales y
             plazas comerciales
@@ -82,7 +83,7 @@
         </div>
         <div class="container-info">
           <div class="info-item">
-            <p class="titulo-naranja">Obten un presupuesto exacto.</p>
+            <p class="title-info">Obten un presupuesto exacto.</p>
             <p>
               Proporcionamos estimaciones de costes que optimizan los recursos
               teniendo en cuenta los plazos y requisitos de su proyecto.
@@ -91,7 +92,7 @@
             </p>
           </div>
           <div class="info-item">
-            <p class="titulo-naranja">Y aprovéchalo al máximo.</p>
+            <p class="title-info">Y aprovéchalo al máximo.</p>
             <p>
               Ofrecemos estimaciones de costes con una amplia gama para
               adaptarse a cualquier presupuesto. Pasará menos tiempo en la
@@ -100,17 +101,62 @@
             </p>
           </div>
         </div>
-        <p class="header">Creamos el espacio industrial y comercial perfecto</p>
+        <p class="text-header text-info">
+          Creamos el espacio industrial y comercial perfecto
+        </p>
         <p class="paragraph-help">¿Necesita ayuda con su próximo proyecto?</p>
         <div class="btn-container">
-          <button class="btn-contact">Hable con nosotros</button>
+          <button class="btn-contact" id="btn-contact">
+            Hable con nosotros
+          </button>
         </div>
       </section>
-      <img
-        src="./assets/Icon awesome-whatsapp.svg"
-        alt="Icono whatsapp"
-        class="whatsapp-icon"
-      />
+      <div class="whatsapp-container">
+        <img
+          src="./assets/Icon awesome-whatsapp.svg"
+          alt="Icono whatsapp"
+          class="whatsapp-icon"
+        />
+      </div>
+      <section class="modal-contact">
+        <div class="modal-content">
+          <p class="text-orange">Contacto</p>
+          <form action="" class="form-content">
+            <div>
+              <input
+                type="text"
+                placeholder="Daniel Beltrán Garciadiego"
+                id="input-name"
+                class="input"
+              />
+              <input
+                type="tel"
+                placeholder="Teléfono"
+                id="input-phone"
+                class="input"
+              />
+            </div>
+            <input
+              type="email"
+              placeholder="Correo"
+              id="input-mail"
+              class="input"
+            />
+            <input
+              type="text"
+              placeholder="Mensaje"
+              id="input-msj"
+              class="input"
+            />
+            <button type="submit" class="btn-submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      <section class="modal-thanks">
+        <div class="modal-thanks-content">¡Gracias!</div>
+      </section>
     </main>
+    <script src="./js/contact.js"></script>
+    <script src="./js/input.js"></script>
   </body>
 </html>
