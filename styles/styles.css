@@ -356,6 +356,7 @@ button {
   border: 1px solid var(--unnamed-color-f15d3b);
   background: #2d2a26 0% 0% no-repeat padding-box;
   opacity: 1;
+  /* transform: translate(10px); */
 }
 input {
   border-radius: 10px;
@@ -379,6 +380,7 @@ input {
   font-size: var(--unnamed-font-size-20);
   font-family: var(--unnamed-font-family-dinpro);
 }
+
 @media (max-width: 1030px) {
   .modal-content {
     display: flex;
